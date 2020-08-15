@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="d-flex align-items-center">
+        <div class="align-self-start position-absolute">
+            <a href="#">
+                <img src="img/book.png" alt="" width="120" class="img-fluid m-4">
+            </a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-light display-1 font-italic mb-5 banner-heading">We <img src="img/heart.png" alt=""
+                            width="250" class="img-fluid"> Reading
+                    </h1>
+                    <a href="" class="btn btn-lg btn-outline-danger text-uppercase px-5">Check Out</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End of Header-->
+    <!--Gallery-->
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5 ">
+                    <h1 class="text-secondary text-uppercase font-italic common-title">The Best Libraries in the World
+                    </h1>
+                </div>
+            </div>
+            <div class="row mb-4 first-row align-items-end">
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library1.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library1.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library2.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library2.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library3.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library3.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library4.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library4.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-4 second-row align-items-end">
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library5.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library5.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library6.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library6.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library7.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library7.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+                    <a href="img/libraries/library8.jpg" data-lightbox="library" data-title="this is the title">
+                        <img src="img/libraries/library8.jpg" alt="" class="img-thumbnail gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Gallery-->
+    <!--Famous Writers-->
+    <section class="famous-writers pb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center py-5 ">
+                    <h1 class="text-secondary text-uppercase font-italic common-title">The most famous writers
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center align-self-center">
+                    <a href="#"><img src="img/writers/William_Shakespeare-book1.jpg" alt="" class="img-fluid"
+                            id="book-1"></a>
+
+                </div>
+                <div class="col-lg-4">
+                    <div id="accordion" class="writers-accordion">
+                        <div class="card">
+                            <div class="card-header p-5">
+                                <button class="btn btn-block btn-outline-danger" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" id="button-William_Shakespeare">William
+                                    Shakespeare</button>
+                            </div>
+
+                            <div class="collapse" id="collapseOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <img src="img/writers/William_Shakespeare.jpg" alt=""
+                                            class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
+                                                quasi?
+                                            </p>
+                                            <a href="" class="btn btn-primary btn-block">More Books</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-5">
+                                <button class="btn btn-block btn-outline-danger" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" id="button-Jane_Austen">Jane Austen</button>
+                            </div>
+
+                            <div class="collapse" id="collapseTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <img src="img/writers/Jane_Austen.jpg" alt="" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
+                                                quasi?
+                                            </p>
+                                            <a href="" class="btn btn-primary btn-block">More Books</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-5">
+                                <button class="btn btn-block btn-outline-danger" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" id="button-Charles_Dickens">Charles Dickens</button>
+                            </div>
+
+                            <div class="collapse" id="collapseThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <img src="img/writers/Charles_Dickens.jpg" alt=""
+                                            class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
+                                                quasi?
+                                            </p>
+                                            <a href="" class="btn btn-primary btn-block">More Books</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-5">
+                                <button class="btn btn-block btn-outline-danger" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" id="button-Victor_Hugo">Victor Hugo</button>
+                            </div>
+
+                            <div class="collapse" id="collapseFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <img src="img/writers/Victor_Hugo.jpg" alt="" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
+                                                quasi?
+                                            </p>
+                                            <a href="" class="btn btn-primary btn-block">More Books</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="my-3">
+                        <a href="" class="btn btn-outline-info btn-block">More Writers</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center align-self-center">
+                    <a href="#"><img src="img/writers/William_Shakespeare-book2.jpg" alt="" class="img-fluid"
+                            id="book-2"></a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End of Famous Writers-->
+    <!--Suggested Books-->
+    <section class="suggested-books">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center py-5 ">
+                    <h1 class="text-secondary text-uppercase font-italic common-title">Suggested Books
+                    </h1>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto books">
+                    <a href=""><img src="img/suggested-books/book1.jpg" alt="" class="img-fluid book book-1"></a>
+                    <a href=""><img src="img/suggested-books/book2.jpg" alt="" class="img-fluid book book-2"></a>
+                    <a href=""><img src="img/suggested-books/book3.jpg" alt="" class="img-fluid book book-3"></a>
+                    <a href=""><img src="img/suggested-books/book4.jpg" alt="" class="img-fluid book book-4"></a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End of Suggested Books-->
+    <!--Popular books-->
+    <section class="popular-books p-5">
+        <div class="video-container">
+            <video src="video/Lulu_latte.mp4" class="bg-video" autoplay muted loop type="video/mp4"></video>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center py-5 ">
+                    <h1 class="text-secondary text-uppercase font-italic common-title">The most popular books of week
+                    </h1>
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-xl-3 col-lg-4 col-sm-8 rotate ">
+                    <div class="card text-center mb-5 book-card mx-md-auto">
+                        <div class="card-header">
+                            <h4 class="font-wright-light">A Tale of Two Cities </h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/Popular-Books/A-Tale-of-Two-Cities.jpg" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            By Charles Dickens
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h1 class="text-uppercase font-weight-light font-italic">only for</h1>
+                                <h3 class="mb-3">25$</h3>
+                                <p><del>100$</del></p>
+                                <a href="" class="btn btn-outline-danger px-4 mb-3">Buy Now </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-8 rotate">
+                    <div class="card text-center mb-5 book-card mx-md-auto">
+                        <div class="card-header">
+                            <h4 class="font-wright-light">Don Quixote </h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/Popular-Books/Don-Quixote.jpg" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            By Miguel De Cervantes
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h1 class="text-uppercase font-weight-light font-italic">only for</h1>
+                                <h3 class="mb-3">30$</h3>
+                                <p><del>150$</del></p>
+                                <a href="" class="btn btn-outline-danger px-4 mb-3">Buy Now </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-8 rotate">
+                    <div class="card text-center mb-5 book-card mx-md-auto">
+                        <div class="card-header">
+                            <h4 class="font-wright-light">One Hundred Years of Solitude </h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/Popular-Books/One-Hundred-Years-of-Solitude.jpg" alt=""
+                                class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            By Charles Dickens
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h1 class="text-uppercase font-weight-light font-italic">only for</h1>
+                                <h3 class="mb-3">25$</h3>
+                                <p><del>100$</del></p>
+                                <a href="" class="btn btn-outline-danger px-4 mb-3">Buy Now </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--End of Popular books-->
+
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script src="js/lightbox.js"></script>
+
+</html>
